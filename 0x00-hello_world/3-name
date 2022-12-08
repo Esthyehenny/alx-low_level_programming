@@ -1,0 +1,11 @@
+/**
+*main - Entry point
+*
+*Return: 0 (Success)
+*/
+#!/bin/bash
+#include <stdio.h>
+int main() {
+printf("cisfun");
+return (0);
+}
