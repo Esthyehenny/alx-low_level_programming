@@ -15,7 +15,7 @@ w, p, next, sum;
 w = 1;
 p = 2;
 sum = 0;
-for (x = 2; x <= 33; ++x)
+for (x = 1; x <= 33; ++x)
 if (w < 4000000 && (x % 2) == 0)
 {
 sum = sum + w;
