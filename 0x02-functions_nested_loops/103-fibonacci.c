@@ -18,10 +18,10 @@ sum = 0;
 for (x = 2; x <= 33; ++x)
 if (w < 4000000 && (x % 2) == 0)
 {
-sum = sum + x;
+sum = sum + w;
 }
-next = x + p;
-x = p;
+next = w + p;
+w = p;
 p = next;
 printf("%lu\n", sum);
 
