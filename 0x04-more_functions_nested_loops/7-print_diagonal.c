@@ -16,9 +16,9 @@ _putchar('\n');
 }
 else
 {
-for (j = 1; j < n; j++)
+for (j = 0; j < n; j++)
 {
-for (v = 1; v < n; j++)
+for (v = 0; v < n; v++)
 {
 if (j == v)
 _putchar('\\');
