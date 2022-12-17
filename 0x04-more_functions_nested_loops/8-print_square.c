@@ -18,7 +18,7 @@ else
 {
 for (r = 0; r < size; r++)
 {
-for (s = 0; s <= size; s++)
+for (s = 0; s < size; s++)
 {
 _putchar('#');
 }
