@@ -20,9 +20,9 @@ for (j = 0; j < n; j++)
 {
 for (v = 0; v < n; v++)
 {
-if (j == v)
+if (v == j)
 _putchar('\\');
-else if (j < v)
+else if (v < j)
 _putchar(' ');
 }
 _putchar('\n');
