@@ -21,7 +21,7 @@ for (x = u; x < size; x++)
 _putchar(' ');
 }
 {
-for (x = 1; x < u; x++)
+for (x = 1; x <= u; x++)
 {
 _putchar('#');
 }
