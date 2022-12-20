@@ -14,14 +14,17 @@ void print_array(int *a, int n)
 {
 int y;
 
-for (y = 0; y < n; ++y)
+y = 0;
+while (y < n)
 {
+printf("%d", a[y]);
 
-if (y != (n - 1))
-printf("%d,", a[y]);
+if (y < n - 1)
+{
+printf(", ");
+}
 
-else
-printf("%d,", a[y]);
+y++;
 }
 
 printf("\n");
