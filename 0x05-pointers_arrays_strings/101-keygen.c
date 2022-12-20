@@ -28,7 +28,7 @@ if ((2772 - sum) -'0' < 78)
 {
 p = 2772 - sum - '0';
 sum += p;
-putchar(p = '0');
+putchar(p + '0');
 
 break;
 }
