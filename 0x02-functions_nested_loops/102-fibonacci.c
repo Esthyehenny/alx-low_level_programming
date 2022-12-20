@@ -9,23 +9,18 @@
 
 int main(void)
 {
-long int l, m, n, next;
-m = 1;
-n = 2;
+long int l, m = 1, n = 2, sum = 0;
 
-for (l = 1; l <= 50; ++l)
+for (l = 0; l < 49; l++)
 {
-if (m != 20365011074)
-{
-printf("%ld,", m);
-}
-else
-{
+printf("%ld, ", m);
+sum = m + n;
+m = n;
+n = sum;
+
+if (l == 48)
 printf("%ld\n", l);
 }
-next = m + n;
-m = n;
-n = next;
-}
+
 return (0);
 }
